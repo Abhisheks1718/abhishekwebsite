@@ -11,6 +11,8 @@
       display: flex;
       justify-content: center;
       padding: 20px;
+      flex-direction: column; /* ensures navbar stays above card */
+      align-items: center;
     }
 
     /* ===== NAVBAR STYLES ===== */
@@ -21,7 +23,10 @@
       display: flex;
       justify-content: center;
       gap: 20px;
-      margin-bottom: 20px;
+      margin-bottom: 30px;   /* space between navbar and card */
+      width: 100%;           /* full width of page */
+      max-width: 600px;      /* same as card width */
+      box-sizing: border-box; /* include padding in width */
       flex-wrap: wrap;
     }
 
