@@ -4,6 +4,23 @@
   <title>Abhishek Website</title>
 
   <style>
+    /* ===== IMAGE HOVER ANIMATION ===== */
+.card img {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.3);
+}
+
+/* ===== CARD SHADOW HOVER ===== */
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.25);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
     /* ===== GENERAL STYLES ===== */
     body {
       font-family: Arial, sans-serif;
@@ -146,3 +163,4 @@
 
 </body>
 </html>
+
