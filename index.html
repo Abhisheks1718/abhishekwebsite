@@ -2,55 +2,75 @@
 <html>
 <head>
   <title>Abhishek Website</title>
+
   <style>
     body {
-      font-family: Arial;
-      text-align: center;
-      background-color: #f4f4f4;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #eef2f3, #d9e7ff);
+      display: flex;
+      justify-content: center;
       padding: 40px;
     }
+
+    .card {
+      background: white;
+      max-width: 600px;
+      width: 100%;
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+      text-align: center;
+    }
+
     img {
-      width: 300px;
-      border-radius: 10px;
+      width: 100%;
+      max-width: 350px;
+      border-radius: 12px;
       margin: 20px 0;
     }
+
     .btn-link {
       display: inline-block;
-      padding: 15px 25px;
-      background: green;
+      padding: 14px 26px;
+      background: #2563eb;
       color: white;
       text-decoration: none;
-      border-radius: 8px;
+      border-radius: 10px;
       font-size: 18px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      transition: transform 0.2s, box-shadow 0.2s;
     }
+
     .btn-link:hover {
-      transform: scale(1.1);
+      transform: scale(1.08);
+      box-shadow: 0 8px 20px rgba(37,99,235,0.4);
     }
+
     footer {
-      margin-top: 40px;
-      color: gray;
+      margin-top: 30px;
+      color: #777;
     }
   </style>
 </head>
 
 <body>
 
-  <h1>Hello Abhishek 👋</h1>
+  <div class="card">
+    <h1>Hello Abhishek 👋</h1>
 
-  <p>I am learning web development step by step 🚀</p>
+    <p>I am learning web development step by step 🚀</p>
 
-  <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470">
+    <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470">
 
-  <br><br>
+    <br><br>
 
-  <a href="about.html" class="btn-link">
-    Start My Web Journey
-  </a>
+    <a href="about.html" class="btn-link">
+      Start My Web Journey
+    </a>
 
-  <footer>
-    <p>© 2026 Abhishek</p>
-  </footer>
+    <footer>
+      <p>© 2026 Abhishek</p>
+    </footer>
+  </div>
 
 </body>
 </html>
